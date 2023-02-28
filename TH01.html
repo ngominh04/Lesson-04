@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bài tập 1</title>
+    <style>
+        body{
+            background-color: beige;
+        }
+        section{cursor: pointer;}
+        .class1 li{
+            border: 2px solid red;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        #zone2 ol{
+            display: flex;
+            justify-content: space-around;
+        }
+        #zone1 ul:nth-child(n){
+            display: flex;
+            justify-content: space-evenly;
+        }
+    </style>
+ </head>
+ <body>
+    <section id="zone1">
+        <nav>
+            <ul>
+                <li><a href="#">Việt Nam</a> </li>
+                <li><a href="#">America</a> </li>
+            </ul>
+        </nav>
+    </section>
+    <section>
+        <nav class="class1">
+            <ul>
+                <li>Hải Dương</li>
+                <li>Hải phòng</li>
+            </ul>
+        </nav>
+    </section>
+    
+    <section id="zone2">
+        <nav>
+            <ol>
+                <li>United States</li>
+                <li>United Kingdom</li>
+            </ol>
+        </nav>
+    </section>
+ </body>
+ </html>
